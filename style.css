@@ -1,20 +1,12 @@
-body {
-  margin: 0;
-  height: 100vh; /* Full viewport height */
-  display: flex;
-  justify-content: center; /* Horizontally center */
-  align-items: center; /* Vertically center */
-  
-  background-size: cover;
+body{
+  text-align: center;
   font-family: 'Courier New', Courier, monospace;
 }
 
 #canvas {
   display: block; /* Remove inline spacing */
-  background-size: cover;
-  border: 2px solid black;
+  margin: 0 auto; /* Auto margins center it horizontally */
   background-image: url(./flappybirdbg.png);
   background-size: cover;
-  /* Canvas will be centered within the body */
+  border: 2px solid black;
 }
-
