@@ -1,6 +1,9 @@
-body{
+body {
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  height: 100vh; /* Ensures the body takes up the full height of the viewport */
+  position: relative; /* Needed for absolute positioning of the canvas */
 }
 
 #canvas {
@@ -9,4 +12,8 @@ body{
   background-image: url(./flappybirdbg.png);
   background-size: cover;
   border: 2px solid black;
+  position: absolute;
+  top: 50%; /* Move canvas to the center vertically */
+  left: 50%; /* Move canvas to the center horizontally */
+  transform: translate(-50%, -50%); /* Offset the position to truly center the canvas */
 }
