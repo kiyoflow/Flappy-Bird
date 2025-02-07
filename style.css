@@ -1,0 +1,10 @@
+body{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#canvas{
+  background-image: url(./flappybirdbg.png);
+  background-size: cover;
+  border: 2px solid black;
+}
