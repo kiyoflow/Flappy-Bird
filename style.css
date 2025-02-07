@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center; /* Horizontally center */
   align-items: center; /* Vertically center */
-  background-image: url(./flappybirdbg.png);
+  
   background-size: cover;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -13,5 +13,6 @@ body {
   display: block; /* Remove inline spacing */
   background-size: cover;
   border: 2px solid black;
+  background-image: url(./flappybirdbg.png);
   /* Canvas will be centered within the body */
 }
