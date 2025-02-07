@@ -3,7 +3,9 @@ body{
   font-family: 'Courier New', Courier, monospace;
 }
 
-#canvas{
+#canvas {
+  display: block; /* Remove inline spacing */
+  margin: 0 auto; /* Auto margins center it horizontally */
   background-image: url(./flappybirdbg.png);
   background-size: cover;
   border: 2px solid black;
