@@ -14,5 +14,7 @@ body {
   background-size: cover;
   border: 2px solid black;
   background-image: url(./flappybirdbg.png);
+  background-size: cover;
   /* Canvas will be centered within the body */
 }
+
