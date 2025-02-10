@@ -67,7 +67,7 @@ function update() {
   }
   context.clearRect(0, 0, board.width, board.height);
   velocityY += gravity;
-  bird.y = Math.min(bird.y + velocityY, board.height - bird.height);
+  bird.y = Math.min(Math.max(bird.y + velocityY, board.height - bird.height));
 
   context.drawImage(birdImg, bird.x, bird.y, bird.width, bird.height);
 
