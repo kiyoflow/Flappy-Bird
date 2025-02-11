@@ -22,6 +22,6 @@ Welcome to the **Flappy Bird** remake! A fun and addictive recreation of the pop
 ---
 
 ### Credits:
-- **Developers**: kiyoflow & racerapple
+- **Developers**: kiyoflow & RacerApple
 
 ---
